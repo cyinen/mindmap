@@ -1,5 +1,6 @@
 import merge from 'deepmerge'
 import LogicalStructure from './layouts/LogicalStructure'
+import Style2 from './layouts/style2'
 import MindMap from './layouts/MindMap'
 import CatalogOrganization from './layouts/CatalogOrganization'
 import OrganizationStructure from './layouts/OrganizationStructure'
@@ -12,6 +13,8 @@ import { lineStyleProps } from './themes/default'
 const layouts = {
     // 逻辑结构图
     logicalStructure: LogicalStructure,
+
+    style2: Style2,
     // 思维导图
     mindMap: MindMap,
     // 目录组织图

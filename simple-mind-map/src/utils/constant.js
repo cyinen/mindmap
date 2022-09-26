@@ -34,10 +34,16 @@ export const tagColorList = [
  */
 export const layoutList = [
     {
+        name: '逻辑结构图2',
+        value: 'style2',
+        img: require('../assets/style2.png')
+    },
+    {
         name: '逻辑结构图',
         value: 'logicalStructure',
         img: require('../assets/logicalStructure.jpg')
     },
+
     {
         name: '思维导图',
         value: 'mindMap',
@@ -54,7 +60,7 @@ export const layoutList = [
         img: require('../assets/catalogOrganization.jpg')
     }
 ]
-export const layoutValueList = ['logicalStructure', 'mindMap', 'catalogOrganization', 'organizationStructure']
+export const layoutValueList = ['style2','logicalStructure', 'mindMap', 'catalogOrganization', 'organizationStructure']
 
 /** 
  * @Author: 王林 
